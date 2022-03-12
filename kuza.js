@@ -82,13 +82,13 @@ const simple = require('./lib/simple.js')
 
     //--Setting--//
 
-let botname = '*_｢ KuzaBase 0.1 ｣ 冬_*' //NAMA BOT
+let botname = '*_｢ ALFA 0.1 ｣ 冬_*' //NAMA BOT
 let lolkey = 'isi'
 let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = '*_｢ AbilGanz ✘ ｣_*' //NAMA OWNER
+let ownername = '*_｢ ALFAREZA ✘ ｣_*' //NAMA OWNER
 let owner = '6282293295376' // NOMOR OWNER
 let symbol = '*☛*'
-let faketeks = `*_｢ KuzaBase 0.1 ｣ 冬_*` 
+let faketeks = `*_｢ AlfaBase 0.1 ｣ 冬_*` 
 
 readGc = true; 
 readPc = true;
@@ -119,10 +119,10 @@ const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
 const Verived = "0@s.whatsapp.net"
-const ytabilbotz = "6282293295376@s.whatsapp.net"
+const ytabilbotz = "6285157770338@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = kuza.user.jid
-const ownerNumber = [`${owner}@s.whatsapp.net`, `6282293295376@s.whatsapp.net`, `6282293295376@s.whatsapp.net`]
+const ownerNumber = [`${owner}@s.whatsapp.net`, `6285157770338@s.whatsapp.net`, `6282293295376@s.whatsapp.net`]
 const isGroup = from.endsWith('@g.us')
 const sender = isGroup ? mek.participant : mek.key.remoteJid
 const totalchat = await kuza.chats.all()
@@ -517,7 +517,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'ListMenu ️',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 AlfaBot',
  description: `Hai kak @${sender.split('@')[0]}, Saya ${botname}, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk memulai silahkan ketik Click Button Dibawah yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -552,10 +552,10 @@ ${symbol} Runtime : *${kyun(run)}*`,
                               "title": "☰ Donasi / Sedekah️",
                               "rowId": ".donasi"
                            },
-                           {
-                              "title": "☰ ScriptBot / Source Code",
-                              "rowId": ".script"
-                           },
+     
+
+
+
                            {
                               "title": "☰ Speed / Kecepatan Bot️",
                               "rowId": ".speed"
@@ -577,7 +577,7 @@ latensi = speed() - timestamp;
 run = process.uptime();
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 AlfaBot',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan Pilih Salah Satu Button List Dibawah Yaa 🙏
  
  *_｢ Indonesia Time ｣_*
@@ -1003,7 +1003,7 @@ break
 case 'sewabot':
  listMsg = {
  buttonText: 'Buttons',
- footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 𝘈𝘣𝘪𝘭𝘉𝘰𝘵𝘻',
+ footerText: '🌀 𝘊𝘳𝘦𝘢𝘵𝘦𝘥 𝘉𝘺 AlfaBot',
  description: `Hai kak @${sender.split('@')[0]}, Mau Sewabot Ya?
  Nih Kak Listnya
  
