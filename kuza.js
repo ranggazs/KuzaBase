@@ -538,7 +538,7 @@ ${symbol} Speed : *${latensi.toFixed(4)} second*
 ${symbol} Runtime : *${kyun(run)}*`,
  sections: [
                      {
-                      "title": `Youtube : ABIL BOTZ`,
+                      "title": `Youtube : ALFA BOT `,
  rows: [
                           {
                               "title": "☰ Command / All Menu️",
@@ -660,7 +660,7 @@ ${symbol} ${prefix}closegc
 ${symbol} ${prefix}tagall
 ${symbol} ${prefix}hidetag
 
-*_Created By AbilGanz_*`)
+*_Created By ALFABOT*`)
 break
 
 case 'stickermenu':
@@ -673,7 +673,7 @@ ${symbol} ${prefix}patrick
 ${symbol} ${prefix}gawgura
 ${symbol} ${prefix}stickeranime
 
-*_Created By AbilGanz_*`)
+*_Created By ALFABOT*`)
 break
 
 case 'downloadmenu':
@@ -683,7 +683,7 @@ ${symbol} ${prefix}ytsearch
 ${symbol} ${prefix}tiktokmusic
 ${symbol} ${prefix}pinterest
 
-*_Created By AbilGanz_*`)
+*_Created By ALFABOT*`)
 break
 
 case 'othermenu':
@@ -699,7 +699,7 @@ ${symbol} ${prefix}groupbot
 ${symbol} ${prefix}runtime
 ${symbol} ${prefix}speed
 
-*_Created By AbilGanz_*`)
+*_Created By ALFABOT*`)
 break
 
 case 'ownermenu':
@@ -713,7 +713,7 @@ ${symbol} ${prefix}upswaudio
 ${symbol} ${prefix}upswvideo
 ${symbol} ${prefix}upswimage
 
-*_Created By AbilGanz_*`)
+*_Created By ALFABOT*`)
 break
 
 case 'upswteks':
@@ -793,7 +793,7 @@ case 'bc':
              for (let _ of anu) {
              kuza.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST 」*\n\n${body.slice(4)}`,
-			"footerText": 'kuzaBot by AbilBotz',
+			"footerText": 'AlfaBot',
 			"buttons": [
 			{"buttonId": `${prefix}owner`,
 			"buttonText": {"displayText": "OWNER"
@@ -892,7 +892,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Yt Abil Botz`)
+costum(buffer, sticker, Verived, ` ALFA BOT `)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
