@@ -82,11 +82,11 @@ const simple = require('./lib/simple.js')
 
     //--Setting--//
 
-let botname = '*_｢ ALFA 0.1 ｣ 冬_*' //NAMA BOT
+let botname = '*_｢ ALFABOT 0.1 ｣ 冬_*' //NAMA BOT
 let lolkey = 'isi'
 let zekskey = 'NXRu7zmcmyWTn0YGNzIV0gTFgoP' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
 let ownername = '*_｢ ALFAREZA ✘ ｣_*' //NAMA OWNER
-let owner = '6282293295376' // NOMOR OWNER
+let owner = '6285157770338' // NOMOR OWNER
 let symbol = '*☛*'
 let faketeks = `*_｢ AlfaBase 0.1 ｣ 冬_*` 
 
